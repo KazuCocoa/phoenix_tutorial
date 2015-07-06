@@ -1,3 +1,5 @@
 <div class="jumbotron">
   <h2>Hello World, from <%= @messenger %>!</h2>
+  <p>"hello_path(@conn, :show)" can't display...</p>
+  <p>hello_path is <%= hello_path(@conn, :index) %></p>
 </div>
